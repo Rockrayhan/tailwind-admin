@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,9 +15,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+// frontend
+Route::get('/', function () {
+    return view('frontend.home');
+});
 
 
-Route::get('/', [HomeController::class, 'index']);
+// backend
+Route::get('/admin', function () {
+    return view('backend.dashboard');
+});
+
+Route::get('/login', function () {
+    return view('backend.login');
+});
+
+
+Route::post('/login', [LoginController::class, 'authenticate']);
