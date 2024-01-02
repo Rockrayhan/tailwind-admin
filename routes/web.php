@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 // frontend
 Route::get('/', function () {
-    return view('frontend.home');
+    return view('frontend2.layouts.app');
 });
 
 
