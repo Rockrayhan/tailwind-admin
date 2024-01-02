@@ -130,7 +130,7 @@
       <div class="container">
         <div class="heading_container heading_center">
           <h2>
-            Our Doctors
+            Our Products
           </h2>
           <p class="col-md-10 mx-auto px-0">
             Incilint sapiente illo quo praesentium officiis laudantium nostrum, ad adipisci cupiditate sit, quisquam aliquid. Officiis laudantium fuga ad voluptas aspernatur error fugiat quos facilis saepe quas fugit, beatae id quisquam.
@@ -140,7 +140,7 @@
           <div class="col-sm-6 col-lg-4 mx-auto">
             <div class="box">
               <div class="img-box">
-                <img src="frontend/images/d1.jpg" alt="">
+                <img src="frontend/images/item1.jpg" alt="">
               </div>
               <div class="detail-box">
                 <div class="social_box">
@@ -169,7 +169,7 @@
           <div class="col-sm-6 col-lg-4 mx-auto">
             <div class="box">
               <div class="img-box">
-                <img src="frontend/images/d2.jpg" alt="">
+                <img src="frontend/images/item2.jpg" alt="">
               </div>
               <div class="detail-box">
                 <div class="social_box">
@@ -198,7 +198,7 @@
           <div class="col-sm-6 col-lg-4 mx-auto">
             <div class="box">
               <div class="img-box">
-                <img src="frontend/images/d3.jpg" alt="">
+                <img src="frontend/images/item3.jpg" alt="">
               </div>
               <div class="detail-box">
                 <div class="social_box">
